@@ -7,7 +7,7 @@ export const menu = [
   { id: 4, name: "Contect", link: "/contect" }, 
  
 ];
-import PhnomPenh from "../assets/images/Phnompenh.jpg";
+import PhnomPenh from "../assets/Images/phnompenh.jpg";
 import province from '../assets/images/Expore_provin.jpg'
 export const discoverCards = [
   {
