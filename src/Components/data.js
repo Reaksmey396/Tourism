@@ -1157,65 +1157,65 @@ export const provincekep = [
 
 // KohKong
 // 1
-import koh1 from '../assets/images/Kohkong_1.jpg'
-import koh2 from '../assets/images/Kohkong_1_1.jpg'
-import koh3 from '../assets/images/Kohkong_1_2.jpg'
-import koh4 from '../assets/images/Kohkong_1_3.jpg'
+import koh1 from '../assets/Images/Kohkong_1.jpg'
+import koh2 from '../assets/Images/Kohkong_1_1.jpg'
+import koh3 from '../assets/Images/Kohkong_1_2.jpg'
+import koh4 from '../assets/Images/Kohkong_1_3.jpg'
 // 2
-import koh5 from '../assets/images/KohKong_2.jpg'
-import koh6 from '../assets/images/koh_2_1.jpg'
-import koh7 from '../assets/images/koh_2_2.jpg'
-import koh8 from '../assets/images/koh_2_3.jpg'
+import koh5 from '../assets/Images/KohKong_2.jpg'
+import koh6 from '../assets/Images/koh_2_1.jpg'
+import koh7 from '../assets/Images/koh_2_2.jpg'
+import koh8 from '../assets/Images/koh_2_3.jpg'
 
 // 3
-import koh_1 from '../assets/images/koh-3.jpg'
-import koh_2 from '../assets/images/koh-3_1.jpg'
-import koh_3 from '../assets/images/koh_3_2.jpg'
-import koh_4 from '../assets/images/koh_3_3.jpg'
+import koh_1 from '../assets/Images/koh-3.jpg'
+import koh_2 from '../assets/Images/koh-3_1.jpg'
+import koh_3 from '../assets/Images/koh_3_2.jpg'
+import koh_4 from '../assets/Images/koh_3_3.jpg'
 
 
 // 4
-import koh_5 from '../assets/images/koh_4.webp'
-import koh_6 from '../assets/images/koh_4_1.jpg'
-import koh_7 from '../assets/images/koh_4_2.jpg'
-import koh_8 from '../assets/images/koh_4_3.jpg'
+import koh_5 from '../assets/Images/koh_4.webp'
+import koh_6 from '../assets/Images/koh_4_1.jpg'
+import koh_7 from '../assets/Images/koh_4_2.jpg'
+import koh_8 from '../assets/Images/koh_4_3.jpg'
 
 
 // 5
-import kohkong1 from '../assets/images/koh_5.jpg'
-import kohkong2 from '../assets/images/koh-5_1.jpg'
-import kohkong3 from '../assets/images/koh_5_2.jpg'
-import kohkong4 from '../assets/images/koh_5_3.jpg'
+import kohkong1 from '../assets/Images/koh_5.jpg'
+import kohkong2 from '../assets/Images/koh-5_1.jpg'
+import kohkong3 from '../assets/Images/koh_5_2.jpg'
+import kohkong4 from '../assets/Images/koh_5_3.jpg'
 
 // 6
-import kohkong5 from '../assets/images/koh_6.jpg'
-import kohkong6 from '../assets/images/koh_6_1.webp'
-import kohkong7 from '../assets/images/koh_6_2.jpg'
-import kohkong8 from '../assets/images/koh_6_3.webp'
+import kohkong5 from '../assets/Images/koh_6.jpg'
+import kohkong6 from '../assets/Images/koh_6_1.webp'
+import kohkong7 from '../assets/Images/koh_6_2.jpg'
+import kohkong8 from '../assets/Images/koh_6_3.webp'
 
 
 // 7
-import kohkong9 from '../assets/images/koh_7.png'
-import kohkong10 from '../assets/images/koh_7_1.jpg'
-import kohkong11 from '../assets/images/koh_7_2.jpg'
-import kohkong12 from '../assets/images/koh_7_3.jpg'
+import kohkong9 from '../assets/Images/koh_7.png'
+import kohkong10 from '../assets/Images/koh_7_1.jpg'
+import kohkong11 from '../assets/Images/koh_7_2.jpg'
+import kohkong12 from '../assets/Images/koh_7_3.jpg'
 
 // 8
-import kohkong13 from '../assets/images/koh_8.jpg'
-import kohkong14 from '../assets/images/koh_8_1.jpeg'
-import kohkong15 from '../assets/images/koh_8_2.jpg'
-import kohkong16 from '../assets/images/koh_8_3.jpg'
+import kohkong13 from '../assets/Images/koh_8.jpg'
+import kohkong14 from '../assets/Images/koh_8_1.jpeg'
+import kohkong15 from '../assets/Images/koh_8_2.jpg'
+import kohkong16 from '../assets/Images/koh_8_3.jpg'
 // 7
-import k1 from '../assets/images/koh_9.jpg'
-import k2 from '../assets/images/koh_9_1.jpg'
-import k3 from '../assets/images/koh_9_2.jpg'
-import k4 from '../assets/images/koh_9_3.jpg'
+import k1 from '../assets/Images/koh_9.jpg'
+import k2 from '../assets/Images/koh_9_1.jpg'
+import k3 from '../assets/Images/koh_9_2.jpg'
+import k4 from '../assets/Images/koh_9_3.jpg'
 
 // 8
-import k5 from '../assets/images/koh10.jpg'
-import k6 from '../assets/images/koh10_1.jpg'
-import k7 from '../assets/images/koh10_2.jpg'
-import k8 from '../assets/images/koh10_3.jpg'
+import k5 from '../assets/Images/koh10.jpg'
+import k6 from '../assets/Images/koh10_1.jpg'
+import k7 from '../assets/Images/koh10_2.jpg'
+import k8 from '../assets/Images/koh10_3.jpg'
 
 
 
