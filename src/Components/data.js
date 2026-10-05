@@ -7,7 +7,7 @@ export const menu = [
   { id: 4, name: "Contect", link: "/contect" }, 
  
 ];
-import Phnompenh from "../assets/images/PhnomPenh.jpg";
+import PhnomPenh from "../assets/images/Phnompenh.jpg";
 import province from '../assets/images/Expore_provin.jpg'
 export const discoverCards = [
   {
@@ -16,7 +16,7 @@ export const discoverCards = [
     description:
       "Discover the capital city of Cambodia — a vibrant blend of culture, history, and modern life.",
     buttonText: "Explore Phnom Penh",
-    image: phnompenh,
+    image: PhnomPenh,
     buttonColor: "bg-blue-600 hover:bg-blue-700",
     linkUrl: "/phnompenh",
     category: "City", // ✅ added category
