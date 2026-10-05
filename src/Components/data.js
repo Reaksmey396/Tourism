@@ -8,7 +8,7 @@ export const menu = [
  
 ];
 import PhnomPenh from "../assets/Images/phnompenh.jpg";
-import province from '../assets/images/Expore_provin.jpg'
+import province from '../assets/Images/Expore_provin.jpg'
 export const discoverCards = [
   {
     id: 1,
