@@ -22,10 +22,12 @@ import Sihanoukville from './Components/Pages/Sihanoukville';
 import SihanoukvilleDetail from './Components/Pages/SihanoukvilleDetail';
 import FunStats from './Components/Pages/FunStats';
 import WelcomePopup from './Components/Pages/WelcomePopup';
+import { LocaleProvider } from './context/LocaleContext';
 
 
 const App = () => {
   return (
+    <LocaleProvider>
     <Router>
       <WelcomePopup/>
       <Navbar />
@@ -96,6 +98,7 @@ const App = () => {
       <Footer/>
     
     </Router>
+    </LocaleProvider>
   );
 };
 

@@ -19,7 +19,7 @@ export const discoverCards = [
     image: PhnomPenh,
     buttonColor: "bg-blue-600 hover:bg-blue-700",
     linkUrl: "/phnompenh",
-    category: "City", // ✅ added category
+    category: "City", 
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const discoverCards = [
     image: province, // replace with your imported image variable
     buttonColor: "bg-green-600 hover:bg-green-700",
     linkUrl: "/provinces",
-    category: "Region", // ✅ added category
+    category: "Region",
   },
 ];
 
@@ -1490,12 +1490,20 @@ export const provinceSihanoukville = [
   }
 ];
 
-export const AllDataprovice=[
-  ...PhnomPenhTourist,
-  ...provinceSiemReap,
-  ...provinceCards,  
-  ...provinceSiemReap,
-  ...provinceKomPot,
-  ...provincekep,
-  ...provinceKohKong, 
-]
+// A complete, route-aware search index used by the site-wide navigation search.
+export const AllDataprovice = [
+  ...provinceCards.map((place) => ({
+    ...place,
+    searchType: "Province",
+    // Only six province detail pages currently exist; the rest open the full province list.
+    searchLink: ["/provinces/siem-reap", "/provinces/kampot", "/provinces/kep", "/provinces/koh-kong", "/provinces/sihanoukville"].includes(place.linkUrl)
+      ? place.linkUrl
+      : "/province",
+  })),
+  ...PhnomPenhTourist.map((place) => ({ ...place, searchType: "Tourism place", searchLink: `/PhnomPenhExplore/${place.id}` })),
+  ...provinceSiemReap.map((place) => ({ ...place, searchType: "Tourism place", searchLink: `/Siemreap/${place.id}` })),
+  ...provinceKomPot.map((place) => ({ ...place, searchType: "Tourism place", searchLink: `/KomPot/${place.id}` })),
+  ...provincekep.map((place) => ({ ...place, searchType: "Tourism place", searchLink: `/Kep/${place.id}` })),
+  ...provinceKohKong.map((place) => ({ ...place, searchType: "Tourism place", searchLink: `/KohKong/${place.id}` })),
+  ...provinceSihanoukville.map((place) => ({ ...place, searchType: "Tourism place", searchLink: `/Sihanoukville/${place.id}` })),
+];

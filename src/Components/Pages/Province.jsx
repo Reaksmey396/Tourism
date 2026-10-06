@@ -113,16 +113,6 @@ const Province = () => {
             </div>
           ))}
         </div>
-
-        {/* Button under all cards */}
-        <div className="w-full flex justify-center mt-8">
-          <button
-            onClick={() => console.log("Load more clicked")}
-            className="px-8 py-3 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-yellow-600 transition"
-          >
-            Load More
-          </button>
-        </div>
       </div>
     </div>
   );

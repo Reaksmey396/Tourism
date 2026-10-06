@@ -8,6 +8,7 @@ import { SlLocationPin } from "react-icons/sl";
 import { GiForkKnifeSpoon } from "react-icons/gi";
 import benner from '../../assets/Images/Benner_about.jpg'
 import aboutwhy from '../../assets/Images/about_welcome.jpg'
+import me from '../../assets/Images/Me.png'
 import { Link, useNavigate } from "react-router-dom";
 
 const AboutCambodia = () => {
@@ -246,8 +247,8 @@ const AboutCambodia = () => {
 
         <div className="w-full flex flex-wrap justify-center gap-10">
           {[
-            { id: 1, name: "Mr. Channa", role: "Sales Director", image: "https://i.pinimg.com/736x/2c/93/b4/2c93b4aafa4da7945f6985243e79e88a.jpg" },
-            { id: 2, name: "Ms. Dara", role: "Marketing Manager", image: "https://i.pinimg.com/736x/9e/ed/64/9eed648cc2033c489d13f98fc11487cc.jpg" },
+            { id: 1, name: "Mr. Channa", role: "UI/UX Designer", image: "https://i.pinimg.com/736x/2c/93/b4/2c93b4aafa4da7945f6985243e79e88a.jpg" },
+            { id: 2, name: "Ms. Reaksmey", role: "Developer", image: me },
           ].map((member, i) => (
             <div key={member.id} className="w-[300px] bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-aos="zoom-in" data-aos-delay={i*150}>
               <div className="w-full h-56 overflow-hidden">
